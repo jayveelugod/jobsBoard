@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+    	<title>Jobs Board Application</title>
+    	<%= favicon_link_tag 'jobLogo.png' %>
+      	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	  	<%= csrf_meta_tags %>
+  	</head>
+  	<body>
+  		<header class="navbar navbar-fixed-top">
+			<div class="container">
+				<nav>
+					<ul class="nav navbar-nav navbar-right">
+						<li><%= link_to "HOME",root_path %></li>
+						<li><%= link_to "POST A JOB",new_job_path %></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+    <%= yield %>
+	<hr>
+    <p align="center"> Developed by: Jayvee Lugod </p>
+  	</body>
+</html>

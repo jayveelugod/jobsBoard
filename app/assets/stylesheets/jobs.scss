@@ -1,0 +1,153 @@
+@import "bootstrap";
+
+
+body {
+    background-color: #e9e9e9;
+  	color: black;
+  	font: 14px/1.5 Helvetica, Arial, sans-serif;
+  	margin: 20px auto;
+  	width: 500px;
+  	padding-top: 60px;
+}
+
+a {
+ 	color: blue;
+  	text-decoration: none;
+}	
+
+header{
+	background-color: #1d4a7c;
+	color: white;
+	a {
+	 	color: white;
+	  	text-decoration: none;
+	}	
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	text-align: center;
+}
+
+.input label{
+  	display: block;	
+}
+
+div.form-group div{
+	width: 50%;
+	margin: 0 auto;
+	input{
+		width: 100%;
+	}
+}
+
+
+.pagination a, .pagination span.current, .pagination span.gap {
+    float: left;
+    padding: 0 14px;
+    line-height: 38px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #DDD;
+    border-left-width: 0;
+}
+
+.pagination {
+    border-left: 1px solid #ddd;
+    .first{
+        padding : 0;
+        float: none;
+        border: none;
+    }
+    .prev {
+        padding : 0;
+        float: none;
+        border: none;
+    }
+    .page{
+        padding : 0;
+        float: none;
+        border: none;
+    }
+    .next{
+        padding : 0;
+        float: none;
+        border: none;
+    }
+    .last{
+        padding : 0;
+        float: none;
+        border: none;
+    }
+}
+
+#container{
+	width: 70em; 
+	display: inline-block; 
+	margin-left: -17em
+}
+
+.borderColor{
+	border-color: #fefefe
+}
+
+#container .panelHeading{
+	background-color: #fefefe; 
+	border-color: #fefefe
+}
+
+#container .text{
+	text-align: center; 
+	color: black; 
+	font-size: 20px
+}
+
+#container .jobText{
+	font-size: 30px; 
+	display: inline-block
+}
+
+#container .postJob{
+	display: inline-block; 
+	float: right
+}
+
+#container .jobDiv{
+	width: 100%; 
+	height: 40em;
+}
+
+#container .panelHeading2{
+	width: 33%;
+	display: inline-block;
+}
+
+#container .pin{
+	float: left
+}
+
+#container .panelJobHeading, #panelJobHeading{
+	text-align: center;     
+	background-color: #f0f2f3;
+    border-color: #f0f2f3;
+}
+
+#container .jobTitle, #jobTitle{
+	color: black; 
+	font-size: 25px
+}
+
+#container .jobCompany{
+	font-weight: bold; 
+	font-size: 20px
+}
+
+#container .tagLine{
+	font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: black
+}
